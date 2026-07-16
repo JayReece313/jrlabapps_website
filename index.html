@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JR LABS LLC | Custom iOS &amp; Android App Development</title>
+  <meta name="description" content="JR LABS LLC builds high-performance, custom-tailored iOS and Google Play applications for businesses that need robust, user-centric mobile software." />
+  <meta name="theme-color" content="#020617" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="JR LABS LLC | Custom iOS & Android App Development" />
+  <meta property="og:description" content="High-performance iOS and Google Play applications custom-tailored for your business." />
+  <meta property="og:url" content="https://jrlabapps.com" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="#" class="text-xl font-extrabold tracking-tight text-slate-900">
+        JR <span class="text-indigo-600">LABS</span> LLC
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#services" class="hover:text-indigo-600 transition">Services</a>
+        <a href="#about" class="hover:text-indigo-600 transition">About</a>
+        <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+        <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
+      </nav>
+
+      <button id="menu-btn" class="md:hidden text-slate-700" aria-label="Toggle menu" aria-expanded="false">
+        <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col gap-4 text-sm font-medium text-slate-600 border-t border-slate-200">
+      <a href="#services" class="hover:text-indigo-600 transition">Services</a>
+      <a href="#about" class="hover:text-indigo-600 transition">About</a>
+      <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+      <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-white py-28 px-6">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-tight">
+        Building Next-Generation Mobile Experiences.
+      </h1>
+      <p class="mt-6 text-lg sm:text-xl text-slate-300">
+        High-performance iOS and Google Play applications custom-tailored for your business.
+      </p>
+      <a href="#contact" class="inline-block mt-10 bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3 rounded-full font-semibold shadow-lg shadow-indigo-950/50 transition">
+        Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <!-- Our Ecosystems -->
+  <section class="py-24 px-6 bg-white">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">Our Ecosystems</h2>
+      <p class="mt-4 text-slate-500 max-w-2xl mx-auto">
+        Deep platform expertise across both major mobile ecosystems, from architecture through release.
+      </p>
+    </div>
+
+    <div class="max-w-5xl mx-auto mt-14 grid md:grid-cols-2 gap-8">
+      <!-- iOS -->
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-8">
+        <div class="h-12 w-12 rounded-xl bg-slate-900 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7 4h10a1 1 0 011 1v14a1 1 0 01-1 1H7a1 1 0 01-1-1V5a1 1 0 011-1z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 18h2" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-slate-900">iOS Development</h3>
+        <ul class="mt-4 space-y-3 text-slate-600 text-sm">
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-indigo-600 shrink-0"></span>
+            Native Swift design and architecture built for performance and longevity.
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-indigo-600 shrink-0"></span>
+            Apple ecosystem optimization, aligned with Human Interface Guidelines.
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-indigo-600 shrink-0"></span>
+            App Store guidelines compliance and review readiness from day one.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Google Play -->
+      <div class="rounded-2xl border border-slate-200 bg-slate-50 p-8">
+        <div class="h-12 w-12 rounded-xl bg-emerald-600 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 12v9M4.5 7.5L12 12l7.5-4.5" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-xl font-semibold text-slate-900">Google Play Development</h3>
+        <ul class="mt-4 space-y-3 text-slate-600 text-sm">
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-600 shrink-0"></span>
+            Kotlin/Java architecture engineered for maintainability at scale.
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-600 shrink-0"></span>
+            Google Play Console deployment and release management.
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1.5 h-1.5 w-1.5 rounded-full bg-emerald-600 shrink-0"></span>
+            Cross-device Android scaling across phones, tablets, and foldables.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services -->
+  <section id="services" class="py-24 px-6 bg-slate-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">Core Services</h2>
+      <p class="mt-4 text-slate-500 max-w-2xl mx-auto">
+        Focused capabilities that take a product from concept to a polished, store-ready release.
+      </p>
+    </div>
+
+    <div class="max-w-6xl mx-auto mt-14 grid md:grid-cols-3 gap-8">
+      <div class="rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition p-8">
+        <div class="h-11 w-11 rounded-lg bg-indigo-50 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16M6 8l-4 4 4 4M18 8l4 4-4 4" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-lg font-semibold text-slate-900">Custom App Development</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          End-to-end native builds tailored to your business logic, not a generic template.
+        </p>
+      </div>
+
+      <div class="rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition p-8">
+        <div class="h-11 w-11 rounded-lg bg-indigo-50 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v18M15 3v18M3 9h6M15 9h6M3 15h6M15 15h6" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-lg font-semibold text-slate-900">UI/UX Mobile Prototyping</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Interactive prototypes that validate flows and interactions before a single line of production code.
+        </p>
+      </div>
+
+      <div class="rounded-2xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition p-8">
+        <div class="h-11 w-11 rounded-lg bg-indigo-50 flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-indigo-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" />
+          </svg>
+        </div>
+        <h3 class="mt-6 text-lg font-semibold text-slate-900">App Store Optimization (ASO)</h3>
+        <p class="mt-3 text-sm text-slate-600">
+          Metadata, keyword, and listing strategy to improve discoverability and conversion.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 px-6 bg-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-slate-900">About JR LABS LLC</h2>
+      <p class="mt-6 text-slate-600 leading-relaxed">
+        JR LABS LLC is a dedicated mobile software development firm specializing in the design, engineering,
+        and deployment of robust, user-centric mobile applications. We partner with businesses to build
+        native iOS and Android products that are performant, maintainable, and built to meet the standards
+        of both the App Store and Google Play.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 px-6 bg-slate-950 text-white">
+    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-14">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight">Let's build something.</h2>
+        <p class="mt-5 text-slate-300 leading-relaxed">
+          Tell us about your project and we'll get back to you shortly. For direct inquiries, reach us at:
+        </p>
+        <a href="mailto:info@jrlabapps.com" class="inline-block mt-4 text-indigo-400 font-semibold text-lg hover:text-indigo-300 transition">
+          info@jrlabapps.com
+        </a>
+      </div>
+
+      <form action="https://formspree.io/f/maqrqkzw" method="POST" class="space-y-5">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+        <div>
+          <label for="name" class="block text-sm font-medium text-slate-300 mb-1.5">Name</label>
+          <input type="text" id="name" name="name" required
+            class="w-full rounded-lg bg-slate-900 border border-slate-700 text-white placeholder-slate-500 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            placeholder="Jane Doe" />
+        </div>
+
+        <div>
+          <label for="email" class="block text-sm font-medium text-slate-300 mb-1.5">Email</label>
+          <input type="email" id="email" name="email" required
+            class="w-full rounded-lg bg-slate-900 border border-slate-700 text-white placeholder-slate-500 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            placeholder="jane@company.com" />
+        </div>
+
+        <div>
+          <label for="message" class="block text-sm font-medium text-slate-300 mb-1.5">Message</label>
+          <textarea id="message" name="message" rows="4" required
+            class="w-full rounded-lg bg-slate-900 border border-slate-700 text-white placeholder-slate-500 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+            placeholder="Tell us about your project..."></textarea>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 rounded-lg transition">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 border-t border-slate-800 text-slate-400 py-10 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 JR LABS LLC. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-white transition">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    menuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      iconOpen.classList.toggle('hidden');
+      iconClose.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(isHidden));
+    });
+
+    document.querySelectorAll('#mobile-menu a').forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        iconOpen.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
