@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="JR Labs icon (text-free mark)">
+  <defs>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="192" height="192" rx="46" fill="url(#tileGrad)"/>
+  <rect x="24" y="24" width="192" height="96" rx="46" fill="#ffffff" opacity="0.06"/>
+  <!-- beaker ghosted behind -->
+  <g opacity="0.14" fill="#ffffff">
+    <path d="M102 60 h36 v11 h-36 z"/>
+    <path d="M106 71 V104 L66 186 a10 10 0 0 0 9 14 h90 a10 10 0 0 0 9 -14 L134 104 V71 Z"/>
+  </g>
+  <!-- JR monogram (no LABS) -->
+  <text x="118" y="158" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+        font-weight="800" font-size="122" letter-spacing="-5" fill="#ffffff">JR</text>
+  <!-- emerald spark -->
+  <path d="M188 66 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" fill="#34d399"/>
+</svg>

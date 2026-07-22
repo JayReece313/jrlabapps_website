@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 130" width="430" height="130" role="img" aria-label="JR Labs horizontal logo: icon plus JR LABS wordmark">
+  <defs>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <!-- icon variant, scaled from 240 -> 112 -->
+  <g transform="translate(8,9) scale(0.46667)">
+    <rect x="24" y="24" width="192" height="192" rx="46" fill="url(#tileGrad)"/>
+    <rect x="24" y="24" width="192" height="96" rx="46" fill="#ffffff" opacity="0.06"/>
+    <g opacity="0.14" fill="#ffffff"><path d="M102 60 h36 v11 h-36 z"/><path d="M106 71 V104 L66 186 a10 10 0 0 0 9 14 h90 a10 10 0 0 0 9 -14 L134 104 V71 Z"/></g>
+    <text x="118" y="158" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="122" letter-spacing="-5" fill="#ffffff">JR</text>
+    <path d="M188 66 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" fill="#34d399"/>
+  </g>
+  <!-- wordmark -->
+  <text x="140" y="86" font-family="Inter,Arial,sans-serif" font-weight="800" font-size="62" letter-spacing="-2">
+    <tspan fill="#0f172a">JR </tspan><tspan fill="#4f46e5">LABS</tspan>
+  </text>
+</svg>

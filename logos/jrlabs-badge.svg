@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="JR Labs app-tile: JR over LABS with a beaker behind">
+  <defs>
+    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+  </defs>
+  <!-- app tile -->
+  <rect x="24" y="24" width="192" height="192" rx="46" fill="url(#tileGrad)"/>
+  <rect x="24" y="24" width="192" height="96" rx="46" fill="#ffffff" opacity="0.06"/>
+  <!-- beaker ghosted behind the monogram -->
+  <g opacity="0.14" fill="#ffffff">
+    <path d="M104 58 h32 v10 h-32 z"/>
+    <path d="M108 68 V98 L74 176 a9 9 0 0 0 8 13 h76 a9 9 0 0 0 8 -13 L140 98 V68 Z"/>
+  </g>
+  <!-- JR -->
+  <text x="120" y="132" text-anchor="middle" font-family="Inter,Arial,sans-serif"
+        font-weight="800" font-size="94" letter-spacing="-3" fill="#ffffff">JR</text>
+  <!-- beam / divider matching JR width -->
+  <rect x="64" y="146" width="112" height="3" rx="1.5" fill="#ffffff" opacity="0.55"/>
+  <!-- LABS stretched to JR width -->
+  <text x="120" y="176" text-anchor="middle" textLength="112" lengthAdjust="spacingAndGlyphs"
+        font-family="Inter,Arial,sans-serif" font-weight="700" font-size="27" fill="#ffffff">LABS</text>
+  <!-- emerald spark -->
+  <path d="M184 56 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6 z" fill="#34d399"/>
+</svg>
