@@ -36,6 +36,10 @@ next to the "JR LABS" wordmark (that doubles the name). Use:
 "LLC" is only for formal/legal spots (footer, cards, contracts) — not everyday branding.
 
 ## Editing / re-exporting
-Vector sources of truth live in the marketing workspace under
-`Marketting/JR LABS/logos/`. SVGs are infinitely scalable; export any PNG size
-from them (e.g. via a browser or `qlmanage -t -s <px> -o . <file>.svg`).
+The `*.svg` files in this folder are the vector source of truth — self-contained,
+infinitely scalable, and (text already outlined to paths) rendered with no font
+dependency. Edit an SVG directly, then re-export any PNG size from it, e.g.:
+
+```sh
+qlmanage -t -s <px> -o . jrlabs-icon.svg   # macOS; or open the SVG in a browser and export
+```
