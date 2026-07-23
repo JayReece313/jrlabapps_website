@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | JR LABS LLC — iOS Development, Consulting &amp; Android</title>
+  <meta name="description" content="JR LABS LLC services: iOS Development (our primary focus), plus App Consulting and Android / Google Play development. Native Apple apps designed, built, tested, and maintained — with a mutual NDA and 100% client IP ownership." />
+  <meta name="theme-color" content="#020617" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Services | JR LABS LLC" />
+  <meta property="og:description" content="iOS Development as our core craft, with App Consulting and Android / Google Play support." />
+  <meta property="og:url" content="https://jrlabapps.com/services.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased">
+
+  <!-- Header / Navigation -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-extrabold tracking-tight text-slate-900">
+        JR <span class="text-indigo-600">LABS</span> LLC
+      </a>
+
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="services.html" class="text-indigo-600">Services</a>
+        <a href="index.html#about" class="hover:text-indigo-600 transition">About</a>
+        <a href="index.html#contact" class="hover:text-indigo-600 transition">Contact</a>
+        <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
+      </nav>
+
+      <button id="menu-btn" class="md:hidden text-slate-700" aria-label="Toggle menu" aria-expanded="false">
+        <svg id="menu-icon-open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="menu-icon-close" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col gap-4 text-sm font-medium text-slate-600 border-t border-slate-200">
+      <a href="services.html" class="text-indigo-600">Services</a>
+      <a href="index.html#about" class="hover:text-indigo-600 transition">About</a>
+      <a href="index.html#contact" class="hover:text-indigo-600 transition">Contact</a>
+      <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
+    </div>
+  </header>
+
+  <!-- Services Hero -->
+  <section class="bg-slate-50 border-b border-slate-200 py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-indigo-800 bg-indigo-100 px-3 py-1.5 rounded-full">
+        Our Services
+      </span>
+      <h1 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+        One core craft, two ways to support it.
+      </h1>
+      <p class="mt-5 text-lg text-slate-600 max-w-2xl">
+        iOS development is what we do best. App consulting and Android / Google Play development
+        extend it — whether you're starting from an idea or expanding a shipped product.
+      </p>
+    </div>
+  </section>
+
+  <!-- PRIMARY: iOS Development -->
+  <section class="py-20 px-6 bg-white">
+    <div class="max-w-5xl mx-auto">
+      <span class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.13em] text-indigo-800 bg-indigo-100 px-3 py-1.5 rounded-full">
+        &#9733; Primary Focus
+      </span>
+      <h2 class="mt-4 text-3xl font-bold tracking-tight text-slate-900">iOS Development</h2>
+      <p class="mt-3 text-slate-600 max-w-2xl">
+        End-to-end native Apple development — the full lifecycle, in-house.
+      </p>
+
+      <div class="mt-10 grid sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-indigo-100 bg-indigo-50/40 p-7">
+          <div class="text-xs font-bold tracking-[0.08em] text-indigo-600">01</div>
+          <h3 class="mt-2 text-lg font-semibold text-slate-900">Custom Native iOS Development</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Swift, SwiftUI, and deep Apple-ecosystem integration (iCloud, notifications,
+            HealthKit, WidgetKit) built for performance and longevity.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-indigo-100 bg-indigo-50/40 p-7">
+          <div class="text-xs font-bold tracking-[0.08em] text-indigo-600">02</div>
+          <h3 class="mt-2 text-lg font-semibold text-slate-900">UI/UX Design</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Wireframing and interactive prototyping designed to Apple's Human Interface
+            Guidelines for a true native feel.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-indigo-100 bg-indigo-50/40 p-7">
+          <div class="text-xs font-bold tracking-[0.08em] text-indigo-600">03</div>
+          <h3 class="mt-2 text-lg font-semibold text-slate-900">QA &amp; Testing</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Bug-free deployment and full Apple App Store guideline compliance, verified across
+            devices and iOS versions.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-indigo-100 bg-indigo-50/40 p-7">
+          <div class="text-xs font-bold tracking-[0.08em] text-indigo-600">04</div>
+          <h3 class="mt-2 text-lg font-semibold text-slate-900">Deployment &amp; Maintenance</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            App Store submission management, post-launch support, and ongoing upkeep with every
+            new OS release.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECONDARY A: App Consulting -->
+  <section id="consulting" class="py-20 px-6 bg-slate-50 border-y border-slate-200 scroll-mt-20">
+    <div class="max-w-5xl mx-auto">
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-slate-500 bg-slate-200/70 px-3 py-1.5 rounded-full">
+        Secondary A
+      </span>
+      <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">App Consulting Services</h2>
+      <p class="mt-3 text-slate-600 max-w-2xl">
+        A standalone starting point for founders and teams — and a natural first phase for any
+        build. We de-risk your product before you invest in development.
+      </p>
+
+      <div class="mt-10 grid sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-200 bg-white p-7">
+          <h3 class="text-base font-semibold text-slate-900">Idea Validation</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Market viability, target-demographic research, and competitor analysis to confirm
+            the opportunity is real.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-7">
+          <h3 class="text-base font-semibold text-slate-900">Roadmapping</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            MVP feature-set definition, budget estimation, and realistic project timelines.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-7">
+          <h3 class="text-base font-semibold text-slate-900">Tech Stack &amp; Architecture</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            The right frameworks, databases, and third-party API integrations for a scalable,
+            maintainable foundation.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 bg-white p-7">
+          <h3 class="text-base font-semibold text-slate-900">Monetization &amp; ASO</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Revenue modeling plus App Store &amp; Google Play optimization strategy to maximize
+            reach and return.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECONDARY B: Android & Google Play -->
+  <section id="android" class="py-20 px-6 bg-white scroll-mt-20">
+    <div class="max-w-5xl mx-auto">
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full">
+        Secondary B
+      </span>
+      <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">Android &amp; Google Play Development</h2>
+      <p class="mt-3 text-slate-600 max-w-2xl">
+        Extend your reach to Android with the same engineering rigor.
+      </p>
+
+      <div class="mt-10 grid sm:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-7">
+          <h3 class="text-base font-semibold text-slate-900">Native Android Development</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Kotlin/Java built to Google's Material Design standards, engineered for
+            maintainability across phones, tablets, and foldables.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-emerald-100 bg-emerald-50/40 p-7">
+          <h3 class="text-base font-semibold text-slate-900">Google Play Store Deployment</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            End-to-end submission management, store-listing optimization, and full Google Play
+            policy compliance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust & Security (NDA / IP) -->
+  <section class="px-6 py-8 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-5xl mx-auto rounded-3xl bg-slate-900 text-white p-8 sm:p-12 flex flex-col sm:flex-row gap-7 items-start">
+      <div class="shrink-0 h-14 w-14 rounded-2xl bg-indigo-500/20 border border-indigo-400/40 flex items-center justify-center text-indigo-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 10V7a6 6 0 1112 0v3M5 10h14a1 1 0 011 1v9a1 1 0 01-1 1H5a1 1 0 01-1-1v-9a1 1 0 011-1z" />
+        </svg>
+      </div>
+      <div>
+        <span class="text-xs font-bold uppercase tracking-[0.14em] text-indigo-300">Trust &amp; Security</span>
+        <h2 class="mt-2 text-2xl sm:text-3xl font-bold tracking-tight">Your Idea Is Protected From Day One</h2>
+        <p class="mt-3 text-slate-300 max-w-2xl">
+          We sign a mutual <span class="text-white font-semibold">Non-Disclosure Agreement (NDA)</span>
+          before you share any details of your app — and you keep
+          <span class="text-white font-semibold">100% ownership</span> of all IP, source code,
+          and designs.
+        </p>
+        <a href="index.html#contact" class="inline-block mt-6 bg-indigo-600 hover:bg-indigo-500 text-white px-7 py-3 rounded-full font-semibold transition">
+          Start Your Project
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 border-t border-slate-800 text-slate-400 py-10 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+      <p>&copy; 2026 JR LABS LLC. All rights reserved.</p>
+      <div class="flex gap-6">
+        <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+        <a href="terms.html" class="hover:text-white transition">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    menuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+      iconOpen.classList.toggle('hidden');
+      iconClose.classList.toggle('hidden');
+      menuBtn.setAttribute('aria-expanded', String(isHidden));
+    });
+
+    document.querySelectorAll('#mobile-menu a').forEach((link) => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        iconOpen.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  </script>
+</body>
+</html>
