@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="JR Labs app-tile: JR over LABS with a beaker behind">
   <defs>
-    <linearGradient id="tileGrad" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="jrBadgeGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#4338ca"/>
     </linearGradient>
   </defs>
   <!-- app tile -->
-  <rect x="24" y="24" width="192" height="192" rx="46" fill="url(#tileGrad)"/>
+  <rect x="24" y="24" width="192" height="192" rx="46" fill="url(#jrBadgeGrad)"/>
   <rect x="24" y="24" width="192" height="96" rx="46" fill="#ffffff" opacity="0.06"/>
   <!-- beaker ghosted behind the monogram -->
   <g opacity="0.14" fill="#ffffff">
