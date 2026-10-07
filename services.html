@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | JR LABS LLC — iOS Development, Consulting &amp; Android</title>
-  <meta name="description" content="JR LABS LLC services: iOS Development (our primary focus), plus App Consulting and Android / Google Play development. Native Apple apps designed, built, tested, and maintained — with a mutual NDA and 100% client IP ownership." />
+  <title>Services | JR LABS LLC — iOS, Consulting, Android &amp; AI Chatbots</title>
+  <meta name="description" content="JR LABS LLC services: iOS Development, App Consulting, Android / Google Play development, and AI Chatbots for small businesses. Native Apple apps designed, built, tested, and maintained — with a mutual NDA and 100% client IP ownership." />
   <meta name="theme-color" content="#020617" />
 
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Services | JR LABS LLC" />
-  <meta property="og:description" content="iOS Development as our core craft, with App Consulting and Android / Google Play support." />
+  <meta property="og:description" content="iOS Development, App Consulting, Android / Google Play development, and AI Chatbots for business websites." />
   <meta property="og:url" content="https://jrlabapps.com/services.html" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,6 +28,10 @@
       },
     };
   </script>
+  <style>
+    .msg { animation: pop .25s ease-out; }
+    @keyframes pop { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  </style>
 </head>
 <body class="bg-white text-slate-800 font-sans antialiased">
 
@@ -40,6 +44,7 @@
 
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
         <a href="services.html" class="text-indigo-600">Services</a>
+        <a href="#chatbot" class="hover:text-indigo-600 transition">AI Chatbots</a>
         <a href="index.html#about" class="hover:text-indigo-600 transition">About</a>
         <a href="index.html#contact" class="hover:text-indigo-600 transition">Contact</a>
         <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
@@ -57,6 +62,7 @@
 
     <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 flex flex-col gap-4 text-sm font-medium text-slate-600 border-t border-slate-200">
       <a href="services.html" class="text-indigo-600">Services</a>
+      <a href="#chatbot" class="hover:text-indigo-600 transition">AI Chatbots</a>
       <a href="index.html#about" class="hover:text-indigo-600 transition">About</a>
       <a href="index.html#contact" class="hover:text-indigo-600 transition">Contact</a>
       <a href="privacy.html" class="hover:text-indigo-600 transition">Privacy</a>
@@ -70,22 +76,22 @@
         Our Services
       </span>
       <h1 class="mt-4 text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
-        One core craft, two ways to support it.
+        Four services, built to work together.
       </h1>
       <p class="mt-5 text-lg text-slate-600 max-w-2xl">
-        iOS development is what we do best. App consulting and Android / Google Play development
-        extend it — whether you're starting from an idea or expanding a shipped product.
+        iOS development, app consulting, Android / Google Play development, and AI chatbots —
+        whether you're starting from an idea, building a product, or putting AI to work on your website.
       </p>
     </div>
   </section>
 
-  <!-- PRIMARY: iOS Development -->
-  <section class="py-20 px-6 bg-white">
+  <!-- iOS Development -->
+  <section id="ios" class="py-20 px-6 bg-white scroll-mt-20">
     <div class="max-w-5xl mx-auto">
-      <span class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.13em] text-indigo-800 bg-indigo-100 px-3 py-1.5 rounded-full">
-        &#9733; Primary Focus
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-indigo-800 bg-indigo-100 px-3 py-1.5 rounded-full">
+        iOS
       </span>
-      <h2 class="mt-4 text-3xl font-bold tracking-tight text-slate-900">iOS Development</h2>
+      <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">iOS Development</h2>
       <p class="mt-3 text-slate-600 max-w-2xl">
         End-to-end native Apple development — the full lifecycle, in-house.
       </p>
@@ -127,11 +133,11 @@
     </div>
   </section>
 
-  <!-- SECONDARY A: App Consulting -->
+  <!-- App Consulting -->
   <section id="consulting" class="py-20 px-6 bg-slate-50 border-y border-slate-200 scroll-mt-20">
     <div class="max-w-5xl mx-auto">
-      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-slate-500 bg-slate-200/70 px-3 py-1.5 rounded-full">
-        Secondary A
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-sky-800 bg-sky-100 px-3 py-1.5 rounded-full">
+        Consulting
       </span>
       <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">App Consulting Services</h2>
       <p class="mt-3 text-slate-600 max-w-2xl">
@@ -171,11 +177,11 @@
     </div>
   </section>
 
-  <!-- SECONDARY B: Android & Google Play -->
+  <!-- Android & Google Play -->
   <section id="android" class="py-20 px-6 bg-white scroll-mt-20">
     <div class="max-w-5xl mx-auto">
-      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full">
-        Secondary B
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-emerald-800 bg-emerald-100 px-3 py-1.5 rounded-full">
+        Android
       </span>
       <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">Android &amp; Google Play Development</h2>
       <p class="mt-3 text-slate-600 max-w-2xl">
@@ -196,6 +202,103 @@
             End-to-end submission management, store-listing optimization, and full Google Play
             policy compliance.
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Chatbots -->
+  <section id="chatbot" class="py-20 px-6 bg-slate-50 border-y border-slate-200 scroll-mt-20">
+    <div class="max-w-5xl mx-auto">
+      <span class="inline-flex items-center text-xs font-bold uppercase tracking-[0.13em] text-violet-800 bg-violet-100 px-3 py-1.5 rounded-full">
+        AI
+      </span>
+      <h2 class="mt-4 text-2xl sm:text-3xl font-bold tracking-tight text-slate-900">AI Chatbots for Small &amp; Local Businesses</h2>
+      <p class="mt-3 text-slate-600 max-w-2xl">
+        A friendly assistant on your website that answers customer questions 24/7 — hours, menu, services, policies —
+        and collects contact details so you can follow up with real leads, not missed messages.
+      </p>
+
+      <div class="mt-12 grid lg:grid-cols-5 gap-10 items-start">
+        <div class="lg:col-span-3">
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div class="rounded-2xl border border-violet-100 bg-white p-6 shadow-sm">
+              <div class="h-10 w-10 rounded-xl bg-violet-600 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M8 10h8M8 14h5M21 12a9 9 0 11-4.2-7.6L21 3l-1 4.2A8.96 8.96 0 0121 12z"/></svg>
+              </div>
+              <h3 class="mt-4 font-semibold text-slate-900">Answers from your content</h3>
+              <p class="mt-2 text-sm text-slate-600">Trained on your own website, menu, FAQs, and policies — and it says so when it doesn't know instead of guessing.</p>
+            </div>
+            <div class="rounded-2xl border border-violet-100 bg-white p-6 shadow-sm">
+              <div class="h-10 w-10 rounded-xl bg-violet-600 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l9 6 9-6M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+              </div>
+              <h3 class="mt-4 font-semibold text-slate-900">Lead capture &amp; follow-up</h3>
+              <p class="mt-2 text-sm text-slate-600">When a visitor wants a quote, booking, or consultation, the bot collects their details and emails them straight to you.</p>
+            </div>
+            <div class="rounded-2xl border border-violet-100 bg-white p-6 shadow-sm">
+              <div class="h-10 w-10 rounded-xl bg-violet-600 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              </div>
+              <h3 class="mt-4 font-semibold text-slate-900">Always on, after hours too</h3>
+              <p class="mt-2 text-sm text-slate-600">Customers get an instant reply at 9 PM on a Sunday, and you wake up to the inquiry waiting in your inbox.</p>
+            </div>
+            <div class="rounded-2xl border border-violet-100 bg-white p-6 shadow-sm">
+              <div class="h-10 w-10 rounded-xl bg-violet-600 flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <h3 class="mt-4 font-semibold text-slate-900">Set up and kept current</h3>
+              <p class="mt-2 text-sm text-slate-600">We build it, match your brand, add it to your site, and update it when your hours, menu, or offers change.</p>
+            </div>
+          </div>
+
+          <h3 class="mt-12 text-sm font-bold uppercase tracking-[0.12em] text-slate-500">How it works</h3>
+          <ol class="mt-4 space-y-4">
+            <li class="flex gap-4"><span class="shrink-0 h-8 w-8 rounded-full bg-violet-100 text-violet-700 font-bold flex items-center justify-center text-sm">1</span><p class="text-sm text-slate-600"><span class="font-semibold text-slate-900">Discover.</span> We learn your business, your most common questions, and what counts as a good lead.</p></li>
+            <li class="flex gap-4"><span class="shrink-0 h-8 w-8 rounded-full bg-violet-100 text-violet-700 font-bold flex items-center justify-center text-sm">2</span><p class="text-sm text-slate-600"><span class="font-semibold text-slate-900">Build &amp; test.</span> We train the assistant on your content, set its tone, and test it with real customer questions.</p></li>
+            <li class="flex gap-4"><span class="shrink-0 h-8 w-8 rounded-full bg-violet-100 text-violet-700 font-bold flex items-center justify-center text-sm">3</span><p class="text-sm text-slate-600"><span class="font-semibold text-slate-900">Launch.</span> One snippet added to your website — works with WordPress, Shopify, Squarespace, Wix, or plain HTML.</p></li>
+            <li class="flex gap-4"><span class="shrink-0 h-8 w-8 rounded-full bg-violet-100 text-violet-700 font-bold flex items-center justify-center text-sm">4</span><p class="text-sm text-slate-600"><span class="font-semibold text-slate-900">Maintain.</span> Ongoing updates and a regular look at the questions customers are asking.</p></li>
+          </ol>
+
+          <h3 class="mt-12 text-sm font-bold uppercase tracking-[0.12em] text-slate-500">A good fit for</h3>
+          <div class="mt-4 flex flex-wrap gap-2.5">
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Restaurants &amp; cafés</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Retail &amp; e-commerce shops</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Salons, spas &amp; studios</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Dental, medical &amp; wellness practices</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Fitness &amp; yoga studios</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Real estate &amp; property management</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Law, accounting &amp; consulting firms</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Home &amp; auto services</span>
+            <span class="text-sm font-medium text-violet-900 bg-white border border-violet-200 rounded-full px-4 py-1.5">Event &amp; catering businesses</span>
+          </div>
+
+          <p class="mt-10 text-sm text-slate-500">
+            Powered by the Claude API. Same promise as everything we build: a mutual NDA first, and you own your content and configuration.
+          </p>
+          <a href="index.html#contact" class="inline-block mt-6 bg-violet-600 hover:bg-violet-500 text-white px-7 py-3 rounded-full font-semibold transition">Book a Free Chatbot Consultation</a>
+        </div>
+
+        <!-- Interactive demo (scripted replies) -->
+        <div class="lg:col-span-2 lg:sticky lg:top-32">
+          <p class="text-xs font-bold uppercase tracking-[0.12em] text-slate-500 mb-3">Try it — sample bot for a fictional café</p>
+          <div class="rounded-2xl border border-slate-200 bg-white shadow-xl shadow-violet-900/10 overflow-hidden">
+            <div class="bg-violet-600 text-white px-4 py-3 flex items-center gap-3">
+              <div class="h-9 w-9 rounded-full bg-white/20 flex items-center justify-center font-bold">&#9749;</div>
+              <div>
+                <p class="text-sm font-semibold leading-tight">Maple &amp; Bean Café</p>
+                <p class="text-xs text-violet-100 flex items-center gap-1.5"><span class="h-1.5 w-1.5 rounded-full bg-emerald-300"></span> Online — replies instantly</p>
+              </div>
+            </div>
+            <div id="chat" class="h-80 overflow-y-auto bg-slate-50 p-4 space-y-3 text-sm"></div>
+            <div id="chips" class="px-4 pt-3 pb-1 flex flex-wrap gap-2 border-t border-slate-100 bg-white"></div>
+            <form id="leadForm" class="hidden px-4 pb-3 pt-2 bg-white space-y-2">
+              <input readonly value="Sample Customer" aria-label="Sample name" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500" />
+              <input readonly value="sample@example.com" aria-label="Sample email" class="w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-500" />
+              <button class="w-full bg-violet-600 hover:bg-violet-500 text-white text-sm font-semibold py-2 rounded-lg">Simulate sending (demo only)</button>
+            </form>
+            <p class="px-4 py-2 text-[11px] text-slate-400 bg-white border-t border-slate-100">Demo uses scripted replies. Live bots answer from each business's own content and are powered by the Claude API.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -258,6 +361,56 @@
         menuBtn.setAttribute('aria-expanded', 'false');
       });
     });
+  </script>
+  <script>
+    const chat = document.getElementById('chat');
+    const chips = document.getElementById('chips');
+    const leadForm = document.getElementById('leadForm');
+
+    const flow = {
+      start: { chips: ['What are your hours?', 'Do you cater events?', 'Is there parking?'] },
+      'What are your hours?': { bot: "We're open Mon–Fri 7am–6pm and Sat–Sun 8am–4pm. Anything else I can help with?", chips: ['Do you cater events?', 'Is there parking?'] },
+      'Is there parking?': { bot: "Yes — free lot behind the café, plus street parking on Maple Street. Anything else?", chips: ['What are your hours?', 'Do you cater events?'] },
+      'Do you cater events?': { bot: "We do! Catering works for groups of 10–200 and every event is quoted individually. Want the owner to reach out with a quote? A live bot would ask for your name and email here — in this demo, sample details are filled in for you.", form: true }
+    };
+
+    function say(text, who) {
+      const wrap = document.createElement('div');
+      wrap.className = 'msg flex ' + (who === 'user' ? 'justify-end' : 'justify-start');
+      const b = document.createElement('div');
+      b.className = 'max-w-[85%] rounded-2xl px-3.5 py-2 ' + (who === 'user' ? 'bg-violet-600 text-white rounded-br-sm' : 'bg-white border border-slate-200 text-slate-700 rounded-bl-sm');
+      b.textContent = text;
+      wrap.appendChild(b); chat.appendChild(wrap); chat.scrollTop = chat.scrollHeight;
+    }
+    function setChips(list) {
+      chips.innerHTML = '';
+      list.forEach(t => {
+        const c = document.createElement('button');
+        c.className = 'text-xs font-medium text-violet-700 border border-violet-300 rounded-full px-3 py-1.5 hover:bg-violet-50 transition';
+        c.textContent = t; c.onclick = () => ask(t); chips.appendChild(c);
+      });
+    }
+    function ask(q) {
+      say(q, 'user'); chips.innerHTML = '';
+      setTimeout(() => {
+        const step = flow[q];
+        say(step.bot, 'bot');
+        if (step.form) { leadForm.classList.remove('hidden'); } else { setChips(step.chips); }
+      }, 500);
+    }
+    leadForm.addEventListener('submit', e => {
+      e.preventDefault(); leadForm.classList.add('hidden');
+      say('Send my details', 'user');
+      setTimeout(() => {
+        say("Demo only — nothing was sent and no details were collected. In a live bot, this is where the business would receive your request.", 'bot');
+        const n = document.createElement('div');
+        n.className = 'msg text-[11px] text-center text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-3 py-2';
+        n.textContent = 'Simulated: a live bot would email the owner the lead + chat summary';
+        chat.appendChild(n); chat.scrollTop = chat.scrollHeight;
+      }, 500);
+    });
+    say("Hi! I'm the Maple & Bean assistant. Ask me anything about the café.", 'bot');
+    setChips(flow.start.chips);
   </script>
 </body>
 </html>
