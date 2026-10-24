@@ -1,12 +1,12 @@
 # jrlabapps.com — JR LABS LLC
 
-Static marketing site for JR LABS LLC (`index.html`, `privacy.html`, `terms.html`). No build step — Tailwind CSS is loaded via CDN.
+Static marketing site for JR LABS LLC (`index.html`, `privacy.html`, `chatbot-privacy.html`, `terms.html`). No build step — Tailwind CSS is loaded via CDN.
 
 ## Before going live
 
 - [x] **Formspree**: form ID `maqrqkzw` wired into the contact form's `action` attribute in [index.html](index.html), delivering to `info@jrlabapps.com`. Confirm the destination email is verified in your Formspree dashboard, and send a test submission once deployed.
 - [x] **Governing law state**: [terms.html](terms.html) Governing Law section set to Michigan.
-- [ ] **Legal review**: the Privacy Policy and Terms of Use are generic boilerplate covering the current site's data practices (contact form only). Have a lawyer review before this is treated as the official policy for a live app that collects user data.
+- [ ] **Legal review**: the Privacy Policy and Terms of Use are generic boilerplate covering the site's data practices (contact form and, from go-live, the AI chat assistant; `chatbot-privacy.html` covers the chat). Have a lawyer review before this is treated as the official policy for a live app that collects user data.
 
 ## Deploying to GitHub Pages
 
