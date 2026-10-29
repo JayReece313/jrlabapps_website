@@ -7,7 +7,7 @@ Static marketing site for JR LABS LLC (`index.html`, `privacy.html`, `chatbot-pr
 - [x] **Formspree**: form ID `maqrqkzw` wired into the contact form's `action` attribute in [index.html](index.html), delivering to `info@jrlabapps.com`. Confirm the destination email is verified in your Formspree dashboard, and send a test submission once deployed.
 - [x] **Governing law state**: [terms.html](terms.html) Governing Law section set to Michigan.
 - [x] **Privacy policies reviewed** by a lawyer (October 2026): [privacy.html](privacy.html) and [chatbot-privacy.html](chatbot-privacy.html).
-- [ ] **Terms of Use**: [terms.html](terms.html) is generic boilerplate; have a lawyer review it before it is treated as the official terms.
+- [x] **Terms of Use**: [terms.html](terms.html) reviewed by a lawyer (reported 2026-10-29).
 
 ## Chat assistant
 
