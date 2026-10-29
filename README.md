@@ -6,7 +6,12 @@ Static marketing site for JR LABS LLC (`index.html`, `privacy.html`, `chatbot-pr
 
 - [x] **Formspree**: form ID `maqrqkzw` wired into the contact form's `action` attribute in [index.html](index.html), delivering to `info@jrlabapps.com`. Confirm the destination email is verified in your Formspree dashboard, and send a test submission once deployed.
 - [x] **Governing law state**: [terms.html](terms.html) Governing Law section set to Michigan.
-- [ ] **Legal review**: the Privacy Policy and Terms of Use are generic boilerplate covering the site's data practices (contact form and, from go-live, the AI chat assistant; `chatbot-privacy.html` covers the chat). Have a lawyer review before this is treated as the official policy for a live app that collects user data.
+- [x] **Privacy policies reviewed** by a lawyer (October 2026): [privacy.html](privacy.html) and [chatbot-privacy.html](chatbot-privacy.html).
+- [ ] **Terms of Use**: [terms.html](terms.html) is generic boilerplate; have a lawyer review it before it is treated as the official terms.
+
+## Chat assistant
+
+`index.html` and `services.html` (and only those) load the chat widget with one `<script type="module">` tag before `</body>`. The widget file is pinned to an exact version with its integrity hash (take the `src` and the `sha384` together from a release of the chatbot repo; never put a hash on the moving `v1` alias). The visible wording (`data-chatbot-*`) is kept in the chatbot repo's `clients/jrlabs-poc/widget-wording.yaml`; a test there fails if it drifts from the policy pages. Do not add the tag to `privacy.html`, `chatbot-privacy.html` or `terms.html`.
 
 ## Deploying to GitHub Pages
 
